@@ -1,96 +1,98 @@
-AI Smart Ceiling Fan System
+# AI Smart Ceiling Fan System
 
-AI-Enabled Occupancy and Temperature Adaptive Smart Ceiling Fan System for Energy Efficient Smart Homes
+**AI-Enabled Occupancy and Temperature Adaptive Smart Ceiling Fan System for Energy Efficient Smart Homes**
 
-Developed by Aluvala Ediga Harsha Vardhan Goud (MCA)
+Developed by **Aluvala Ediga Harsha Vardhan Goud (MCA)**
 
-###Overview
+---
 
-This project presents an AI-powered smart ceiling fan control system that automatically adjusts fan speed based on room occupancy and temperature conditions. The system uses computer vision with YOLOv8 to detect people in a room through a camera and intelligently controls fan speed to improve energy efficiency and comfort.
+## Overview
 
-The prototype demonstrates how Artificial Intelligence, Computer Vision, and Smart Home Automation can be integrated to build intelligent energy-saving devices.
+This project presents an **AI-powered smart ceiling fan control system** that automatically adjusts fan speed based on **room occupancy and temperature conditions**.
 
-Features
+The system uses **computer vision with YOLOv8** to detect people in a room through a camera and intelligently control fan speed to improve **energy efficiency and comfort**.
 
-Real-time people detection using YOLOv8
+This prototype demonstrates how **Artificial Intelligence, Computer Vision, and Smart Home Automation** can be integrated to build intelligent energy-saving devices.
 
-Automatic fan speed adjustment
+---
 
-Temperature adaptive control
+## Features
 
-Real-time dashboard display
+- Real-time **people detection using YOLOv8**
+- **Automatic fan speed adjustment**
+- **Temperature adaptive control**
+- Real-time **dashboard display**
+- **Power consumption estimation**
+- **System performance (FPS) monitoring**
+- **Data logging for analysis**
 
-Power consumption estimation
+---
 
-System performance (FPS) monitoring
+---
 
-Data logging for analysis
+## Practical Implementation Using Prototype
 
-System Architecture
-Camera
-   │
-   ▼
-AI Detection (YOLOv8)
-   │
-   ▼
-People Counting + Temperature Input
-   │
-   ▼
-Decision Logic Engine
-   │
-   ▼
-Smart Fan Control
-Practical Implementation Using Prototype
+To validate the proposed **AI-Enabled Smart Ceiling Fan System**, a working prototype was developed and tested in a **real-time environment**.
 
-To validate the proposed AI-Enabled Smart Ceiling Fan System, a working prototype was developed and tested in a real-time environment. The prototype uses a webcam connected to a computer running the Python-based AI detection system. The camera captures live video from the room, and the YOLOv8 object detection model processes each frame to identify and count the number of people present.
+The prototype uses a **webcam connected to a computer running a Python-based AI detection system**. The camera captures live video, and the **YOLOv8 object detection model** processes each frame to identify and count the number of people present.
 
-Based on the detected occupancy and temperature conditions, the system automatically determines the appropriate fan speed (OFF, LOW, MEDIUM, or HIGH). The decision logic is displayed in a real-time dashboard that shows the number of detected persons, estimated power consumption, and system performance.
+Based on the detected **occupancy and temperature conditions**, the system automatically determines the appropriate fan speed:
 
-The prototype demonstrates the practical feasibility of integrating computer vision, artificial intelligence, and smart energy management to develop an intelligent ceiling fan control system. The system successfully adapts airflow based on real-time environmental conditions and occupancy levels, thereby improving comfort and reducing unnecessary energy consumption.
+- **OFF**
+- **LOW**
+- **MEDIUM**
+- **HIGH**
 
-Although the current implementation operates as a software-based prototype, the same control logic can be integrated with embedded hardware such as Raspberry Pi, ESP32, or smart fan controllers to create a fully functional smart home device.
+The results are displayed in a **real-time dashboard** showing:
 
-IoT-Based Real-Time Implementation
+- number of detected persons  
+- estimated power consumption  
+- system performance  
 
-The system can be extended to a real IoT-based smart fan controller using embedded hardware.
+This prototype demonstrates the practical feasibility of integrating **computer vision, artificial intelligence, and smart energy management** to develop an intelligent ceiling fan control system.
+
+Although the current implementation operates as a **software-based prototype**, the same logic can be integrated with **embedded hardware** such as:
+
+- Raspberry Pi  
+- ESP32  
+- Smart fan controllers  
+
+to create a fully functional **smart home device**.
+
+---
+
+## IoT-Based Real-Time Implementation
+
+The system can be extended into a **real IoT-based smart fan controller**.
 
 Possible hardware platforms include:
 
-Raspberry Pi
+- Raspberry Pi
+- ESP32
+- Jetson Nano
+- Smart relay modules
 
-ESP32
 
-Jetson Nano
+This allows the system to operate **in real time**, continuously monitoring occupancy and environmental conditions to automatically regulate airflow.
 
-Smart relay modules
+---
 
-IoT Architecture
-Camera
-   │
-   ▼
-AI Detection System
-   │
-   ▼
-Edge Device (Raspberry Pi / ESP32)
-   │
-   ▼
-Relay Controller
-   │
-   ▼
-Smart Ceiling Fan
+## Technologies Used
 
-This allows the system to operate in real time, continuously monitoring occupancy and environmental conditions to automatically regulate airflow.
+| Technology | Purpose |
+|------------|--------|
+| Python | Core programming language |
+| OpenCV | Camera access and image processing |
+| YOLOv8 | AI-based person detection |
+| NumPy | Numerical operations |
 
-Technologies Used
-Technology	Purpose
-Python	Core programming language
-OpenCV	Camera access and image processing
-YOLOv8	AI-based person detection
-NumPy	Numerical operations
-Installation
+---
+
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/yourusername/ai-smart-fan.git
 cd ai-smart-fan
 
@@ -101,7 +103,7 @@ pip install opencv-python
 pip install numpy
 Running the Project
 
-Run the program using:
+Run the program:
 
 python smart_fan.py
 
@@ -152,3 +154,14 @@ Author
 
 Aluvala Ediga Harsha Vardhan Goud
 Master of Computer Applications (MCA)
+
+
+---
+
+✅ This version will look **clean and professional on GitHub**.
+
+If you want, I can also show you **3 things that make AI repositories look much more professional**:
+
+- GitHub **badges (Python, YOLO, License)**  
+- **Project screenshots section**  
+- **AI workflow diagram**.
