@@ -4,7 +4,7 @@ AI-Enabled Occupancy and Temperature Adaptive Smart Ceiling Fan System for Energ
 
 Developed by Aluvala Ediga Harsha Vardhan Goud (MCA)
 
-Overview
+###Overview
 
 This project presents an AI-powered smart ceiling fan control system that automatically adjusts fan speed based on room occupancy and temperature conditions. The system uses computer vision with YOLOv8 to detect people in a room through a camera and intelligently controls fan speed to improve energy efficiency and comfort.
 
