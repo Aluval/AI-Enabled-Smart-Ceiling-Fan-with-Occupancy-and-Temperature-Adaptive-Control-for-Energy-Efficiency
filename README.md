@@ -112,26 +112,28 @@ python smart_fan.py
 
 The camera window will open and display:
 
-Number of detected people
+- Number of detected people
 
-Temperature
+- Temperature
 
-Fan speed
+- Fan speed
 
-Power consumption
+- Power consumption
 
-System FPS
+- System FPS
 ---
-```
+
 Example Output
+```
 People: 2
 Temp: 28°C
 Fan Speed: MEDIUM
 Power: 45W
 FPS: 22
 ```
-```
+
 Project Structure
+```
 AI-Smart-Fan
 │
 ├── smart_fan.py
@@ -140,7 +142,8 @@ AI-Smart-Fan
 ├── documentation.docx
 └── fan_log.txt
 ```
-Future Improvements
+
+## Future Improvements
 
 IoT cloud integration
 
@@ -150,14 +153,14 @@ Smart building automation
 
 Energy consumption analytics
 
-License
+## License
 
 This project is licensed under the Apache License 2.0
 
 Copyright © 2026
 Aluvala Ediga Harsha Vardhan Goud
 
-Author
+## Author
 
 Aluvala Ediga Harsha Vardhan Goud
 Master of Computer Applications (MCA)
@@ -165,10 +168,3 @@ Master of Computer Applications (MCA)
 
 ---
 
-✅ This version will look **clean and professional on GitHub**.
-
-If you want, I can also show you **3 things that make AI repositories look much more professional**:
-
-- GitHub **badges (Python, YOLO, License)**  
-- **Project screenshots section**  
-- **AI workflow diagram**.
