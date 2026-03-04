@@ -95,17 +95,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/ai-smart-fan.git
 cd ai-smart-fan
+```
 
-Install dependencies:
+```Install dependencies:
 
 pip install ultralytics
 pip install opencv-python
 pip install numpy
-Running the Project
+```
 
 Run the program:
-
+```
 python smart_fan.py
+```
+---
 
 The camera window will open and display:
 
@@ -118,13 +121,16 @@ Fan speed
 Power consumption
 
 System FPS
-
+---
+```
 Example Output
 People: 2
 Temp: 28°C
 Fan Speed: MEDIUM
 Power: 45W
 FPS: 22
+```
+```
 Project Structure
 AI-Smart-Fan
 │
@@ -133,6 +139,7 @@ AI-Smart-Fan
 ├── LICENSE
 ├── documentation.docx
 └── fan_log.txt
+```
 Future Improvements
 
 IoT cloud integration
